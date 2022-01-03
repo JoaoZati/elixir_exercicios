@@ -12,7 +12,7 @@ defmodule ElixirExercicios do
       :world
 
   """
-  def hello do
-    :world
+  def ex1_hello do
+    "hello world"
   end
 end

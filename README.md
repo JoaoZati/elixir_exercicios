@@ -2,20 +2,35 @@
 
 **TODO: Add description**
 
+Repositório para exercícios envolvendo programação funcional com Elixir.
+
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_exercicios` to your list of dependencies in `mix.exs`:
+Para rodar os programas instale o Elixir e o Git em seu computador e digite no terminal.
 
-```elixir
-def deps do
-  [
-    {:elixir_exercicios, "~> 0.1.0"}
-  ]
-end
+```
+git clone git@github.com:JoaoZati/elixir_exercicios.git
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/elixir_exercicios>.
+Após clonado o diretorio entre no diretório clonado:
+
+```
+cd elixir_exercicios/
+```
+
+E digite:
+
+```
+iex -S mix
+```
+
+## Exercicios:
+### Para cada exercicio digite no copilador iex para obter o resultado
+
+----
+
+Ex 1) Faça um Programa que mostre a mensagem "Alo mundo" na tela.
+```
+iex> ElixirExercicios.hello()
+```
 
